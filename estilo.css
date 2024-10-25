@@ -1,0 +1,144 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1f8cd;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: #2ace74;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: #2ace74;
+}
+
+p{
+    text-align: justify;
+    font-size: 17px;
+    color: #057738;
+}
+header {
+    background-color: #2ace74;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+article a{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+a:link {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: #2ace74;
+   }
+
+a:visited {
+    color: #057738;
+}
+a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #00ff73;
+    background-color: #d8fde0;
+   }
+
+.imagem{
+    display: flex;
+    
+}
+div {
+    display: flex;
+    justify-content: center;
+  }
+  
+img {
+    width: 60%;
+  }
+  
+main {
+    padding: 20px;
+}
+
+article {
+    background-color:aliceblue;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+footer {
+    background-color: #23c26b;
+    text-align: center;
+    position: fixed;
+    padding: 1px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul{
+        width: 65%;
+    }
+    article{
+        width: 65%;
+    }
+    header{
+        width: 100%
+    }
+    h1{
+        width: 25%;
+    }
+    h2{
+        width: 25%;
+    }
+    h3{
+        width: 25%;
+    }
+
+    img {
+        max-width: 100%;
+        width: 300px;
+        }
+
+}
+
+@media (max-width: 350px) {
+    nav ul{
+        width: 60%;
+    }
+    article{
+        width: 60%;
+    }
+    h1{
+        font-size: 20%;
+    }
+    h2{
+        width: 20%;
+    }
+    h3{
+        width: 20%;
+    }
+    header{
+        width: 100%
+    }
+    img {
+        max-width: 100%;
+        width: 300px;
+      }
+}
+
